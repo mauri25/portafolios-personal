@@ -1,0 +1,12 @@
+.conceptoWeb{
+   
+    
+    padding: 30px;
+    background: #040611;
+    padding-left: 30px 100px;
+ 
+ }
+ 
+ @media (max-width: 768px){
+   .conceptoWeb{padding: 20px;} 
+ }

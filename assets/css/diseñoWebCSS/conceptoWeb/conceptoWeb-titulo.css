@@ -1,0 +1,15 @@
+.conceptoWeb__titulo{
+    color:#ffffff;
+    font-family: Mermaid Babies;
+    font-size: 4rem;
+    text-align: center;
+    
+    
+
+}
+
+@media screen and (max-width: 768px){
+    .concepto__titulo{
+      font-size: 4rem;
+    }
+ }

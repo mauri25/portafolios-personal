@@ -1,0 +1,14 @@
+.menu__lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .menu__lista
+   {
+       flex-wrap: wrap;
+       align-items: center;
+       margin: 0rem 0 2rem 0;
+   }
+}

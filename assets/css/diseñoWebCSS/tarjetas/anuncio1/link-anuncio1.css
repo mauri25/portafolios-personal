@@ -1,0 +1,17 @@
+.link{
+   
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 10px;
+    color:#ffffff;
+    background: #000080;
+    border-radius: 20px;
+   
+   
+
+}
+
+.link:hover{
+    background:  #0303ff;
+}

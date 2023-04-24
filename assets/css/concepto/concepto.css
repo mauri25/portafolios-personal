@@ -1,0 +1,12 @@
+.concepto{
+   display: flex;
+   position: relative;
+   padding: 100px;
+   background: #040611;
+   padding-left: 30px 100px;
+
+}
+
+@media (max-width: 768px){
+  .concepto{padding: 20px;} 
+}

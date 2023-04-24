@@ -1,0 +1,27 @@
+.banner__letra{
+    transition:0.5s;
+
+}
+
+h2:hover .banner__letra:nth-child(1):after{
+    content: "'";
+}
+
+h2:hover .banner__letra:nth-child(1){
+    margin-right: 10px;
+}
+
+h2:hover .banner__letra:nth-child(2){
+    margin-left: 40px;
+}
+
+h2:hover .banner__letra{
+    color: #4bc9ff;
+    text-shadow: 
+    0 0 10px #4bc9ff,
+    0 0 20px #4bc9ff,
+    0 0 40px #4bc9ff,
+    0 0 80px #4bc9ff,
+    0 0 120px #4bc9ff,
+    0 0 160px #4bc9ff,
+}

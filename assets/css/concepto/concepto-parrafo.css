@@ -1,0 +1,16 @@
+.concepto__parrafo{
+    color:#ffffff;
+    font-family: Mermaid Babies;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    left:5%;
+    text-align: justify;
+    
+
+}
+
+@media screen and (max-width: 768px){
+    .concepto__parrafo{
+      font-size: 1rem;
+    }
+ }

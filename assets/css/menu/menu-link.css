@@ -1,0 +1,18 @@
+.menu__link{
+   
+    text-decoration: none;
+    padding: 1rem;
+    color:#ffffff;
+    background: #000080;
+    border-radius: 20px;
+   
+   
+
+}
+
+.menu__link:hover{
+    background:  #0303ff;
+}
+
+
+

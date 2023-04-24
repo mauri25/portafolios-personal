@@ -1,0 +1,34 @@
+.contenedor{
+   position: absolute;
+    display: flex;
+    justify-content: right;
+    
+    margin-left: 50px;
+}
+
+.banner__marcadoruno{
+   
+    width: 60%;
+    height: 60%;
+    position: relative;
+  margin-left: 545px;
+ 
+ }
+
+
+ 
+
+
+ @media screen and (min-width: 0) {
+    .banner__imagen{
+       height: calc(200vh - 51px)
+ 
+    }
+    
+ }
+ @media screen and (min-width: 768px){
+    .banner__imagen{
+       height: calc(100vh - 72px);
+    }
+}
+

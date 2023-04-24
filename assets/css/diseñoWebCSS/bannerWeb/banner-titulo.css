@@ -1,0 +1,7 @@
+.banner__titulo{
+    font-size:6em;
+    font-weight: 500;
+    color: #1f526b;
+    letter-spacing: 5px;
+    cursor: pointer;
+}

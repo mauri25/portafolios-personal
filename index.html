@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolios/inicio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/logo.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="./assets/css/flexbox.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-estrellas.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-logo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/concepto/concepto.css">
+    <link rel="stylesheet" href="./assets/css/concepto/concepto-contenido.css">
+    <link rel="stylesheet" href="./assets/css/concepto/concepto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/concepto/concepto-parrafo.css">
+   
+   
+</head>
+<body>
+    <header class="cabecera" id="header">
+            <img src="./assets/image/logo-gato.png" alt="logo-michiro" class="logo" />
+        
+       <nav class="menu">
+        <ul class="menu__lista">
+            <li class="menu__item"><a href="/index.html" class="menu__link">
+                Concepto
+            </a></li>
+            <li class="menu__item"><a href="" class="menu__link">
+                Sobre mi
+            </a></li>
+            <li class="menu__item"><a href="/ilustracion.html" class="menu__link">
+                 Ilustración
+            </a></li>
+            <li class="menu__item"><a href="/diseñoWeb.html" class="menu__link">
+                Diseño Web
+            </a></li>
+            <li class="menu__item"><a href="" class="menu__link">
+                Diseño editorial
+            </a></li>
+            <li class="menu__item"><a href="" class="menu__link">
+                Contacto
+            </a></li>
+        </ul>
+       </nav>
+    </div>
+    </header>
+
+    <section class="banner">
+<img src="./assets/image/estrellas.png" alt="estrellas" class="banner__estrellas" id="estrella">
+<img src="./assets/image/logo.png" alt="logo" class="banner__logo" id="logo">
+<img src="./assets/image/titulo.png" alt="titulo" class="banner__titulo" id="logo">
+    </section>
+
+    <section class="concepto">
+<img src="./assets/image/concepto-04-04.png" alt="" class="concepto__contenido">
+<div>
+    <h2 class="concepto__titulo">Concepto</h2>
+    <p class="concepto__parrafo">Cuando caes en los mas profundo de tu angustia y sientes un gran peso encima, que te neutraliza y te impide seguir avanzando, te desmotiva y piensas que no eres capaz de logra las cosas que te propones, yo a esa fuerza le llamo Michiro mi gran inseguridad. Pero en el fondo de tu ser aun hay un poco de esperanza, una fuerza de voluntad que te permite seguir en pie, a pesar de que la derrota es casi inminente, pero te aferras a ella y continuas hasta finalizar lo que te has propuesto, esa pequeña luz le llamo Michiro blanco.</p>
+</div>
+
+    </section>
+   
+    <script>
+        let stars = document.getElementById('estrella');
+        let moon = document.getElementById('logo');
+        let btn = document.getElementById('logo');
+        let header = document.querySelector('header');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 0.25 + 'px';
+                btn.style.marginTop = value * 0.10 + 'px';
+                header.style.top = value * 0.10 + 'px';
+            
+        })
+    </script>
+</body>
+</html>
