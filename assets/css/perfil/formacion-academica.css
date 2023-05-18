@@ -1,0 +1,37 @@
+.formacion__academica{
+   
+    padding: 100px;
+    
+}
+
+.formacion__basica{
+    display: flex;
+    align-items: center;
+}
+
+.formacion__foto{
+height: 200px;
+width: 200px;
+margin-top: 3%;
+margin-left: 3%;
+margin-right: 10%;
+border-radius: 100%;
+}
+
+
+
+.formacion__titulo{
+    color:#ffffff;
+    font-family: Mermaid Babies;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.formacion__datos{
+    margin-top: 3%;
+    color:#ffffff;
+    font-family: Belina Demo Regular;
+    font-size: 2rem;
+    text-align: justify;
+    
+}

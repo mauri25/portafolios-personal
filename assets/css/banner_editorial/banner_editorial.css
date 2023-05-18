@@ -1,0 +1,33 @@
+.banner__editorial{
+    
+        position: relative;
+        width: 100%;
+        height: 149vh;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        overflow: hidden;
+      
+}
+
+.banner__editorial img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.banner__editorial::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 150%;
+    height: 100px;
+    background:linear-gradient(to top, #040611,transparent) ;
+    z-index: 1000;
+}
+

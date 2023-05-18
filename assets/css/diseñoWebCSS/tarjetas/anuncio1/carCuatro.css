@@ -1,5 +1,5 @@
 .cardCuatro{
-    width:60%;
+    width:50%;
     
     border-radius: 6px;
     overflow: hidden;
@@ -9,14 +9,28 @@
     transition: all 400ms ease;
 }
 
+.container{
+   
+    margin-left: 120px;
+    margin-right: 0px;
+}
+
 .cardCuatro:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
 .cardCuatro img{
-    width: 90%;
-    height: 140%;
+    width: 100%;
+    height: 130%;
+    display: flex;
+    justify-content: center;
+  
 }
 
 .cardCuatro .contenido{

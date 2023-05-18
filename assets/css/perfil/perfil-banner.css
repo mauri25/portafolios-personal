@@ -1,0 +1,23 @@
+.perfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.perfil__banner{
+    margin-left: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    
+}
+
+.estrellas__perfil{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
