@@ -31,3 +31,9 @@
     z-index: 1000;
 }
 
+@media screen and (max-width: 2150px){
+    .banner__editorial{
+        height: 107vh; 
+}
+}
+

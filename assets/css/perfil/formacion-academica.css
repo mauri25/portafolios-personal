@@ -1,6 +1,6 @@
 .formacion__academica{
    
-    padding: 100px;
+    padding: 60px;
     
 }
 
@@ -35,3 +35,37 @@ border-radius: 100%;
     text-align: justify;
     
 }
+
+@media screen and (max-width: 768px){
+
+    .formacion__academica{
+   
+        padding: 109px;
+        
+    }
+    .formacion__basica{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+    .formacion__titulo{
+        color:#ffffff;
+        font-family: Mermaid Babies;
+        font-size: 2rem;
+        text-align: justify;
+        margin-top: 3rem;
+    }
+
+    .formacion__datos{
+        margin-top: 0%;
+        color:#ffffff;
+        font-family: Belina Demo Regular;
+        font-size: 2rem;
+        text-align: justify;
+        
+    }
+    
+
+}
+

@@ -33,3 +33,14 @@
     background:linear-gradient(to top, #040611,transparent) ;
     z-index: 1000;
 }
+
+@media screen and (min-width: 2150px){
+    .texto__banner{
+       
+        height: 68vh;
+      
+    
+    }
+   
+ 
+  }

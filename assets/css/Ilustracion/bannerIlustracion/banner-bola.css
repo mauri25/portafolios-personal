@@ -34,3 +34,21 @@
         transform: translateY(-10vh) scale(1);
     }
 }
+
+@media screen and (max-width: 768px){
+   .banner__bolas span{
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    box-shadow: 0 0 0 5px #4fc3dc44,
+    0 0 25px #4fc3dc44,
+    0 0 50px #4fc3dc44;
+   }
+   .banner__bolas span:nth-child(even){
+    background: #fff;
+    box-shadow: 0 0 0 5px #bdedf844,
+    0 0 25px #bdedf844,
+    0 0 50px #bdedf844;
+}
+   }
+ 

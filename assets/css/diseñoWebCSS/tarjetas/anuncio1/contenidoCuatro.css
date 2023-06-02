@@ -8,3 +8,15 @@
   
 
 }
+
+@media screen and (max-width: 768px){
+
+    .contenidoCuatro{
+       
+      
+       max-width: 494px;
+    
+    }
+    
+
+}

@@ -5,3 +5,13 @@
     letter-spacing: 5px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 2150px){
+    .banner__titulo{
+        font-size:5em;
+        font-weight: 500;
+    }
+   
+ }
+ 
+ 

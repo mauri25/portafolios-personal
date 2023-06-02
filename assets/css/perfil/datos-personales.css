@@ -2,15 +2,13 @@
     display:flex;
     flex-direction: row;
     align-items: center;
-    padding: 90px;
+    padding: 60px;
     
 }
 
 .redes{
     display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
+    gap: 139px;
 }
 
 .link{
@@ -62,3 +60,50 @@ border-radius: 100%;
     text-align: justify;
     
 }
+
+@media screen and (max-width: 768px){
+    .datos__personales{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;    
+    }
+
+    .datos__nombre{
+        font-size: 2rem;
+    }
+
+    .redes{
+        display:flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .iconoUno{
+        margin-bottom: 10px;
+        width: 50%;
+      
+    }
+    
+    .iconoDos{
+        margin-bottom: 10px;
+        width: 50%;
+        margin-left: 9px;
+    }
+    
+    .iconoTres{
+        margin-bottom: 10px;
+        width: 50%;
+        
+    }
+
+    .datos__foto{
+        margin-top: 1%;
+        margin-left: -9%;
+        margin-right: -9%;
+        }
+
+}
+

@@ -47,3 +47,25 @@
     font-weight: 600;
     margin-bottom: 15px;
 }
+
+@media screen and (max-width: 768px){
+
+    .cardCuatro{
+        width:100%;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        cursor:default;
+        transition: all 400ms ease;
+
+        .container{
+   
+            margin-left: -4px;
+            margin-right: 0px;
+        }
+    }
+    
+    
+
+}

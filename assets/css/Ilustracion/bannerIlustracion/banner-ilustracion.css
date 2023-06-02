@@ -18,3 +18,13 @@
     z-index: 1000;
 }
 
+@media screen and (max-width: 768px){
+    .banner__ilustracion{
+    
+     
+        height: 72vh;
+      
+        
+    }
+    }
+  

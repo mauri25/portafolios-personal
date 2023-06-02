@@ -16,19 +16,14 @@
  }
 
 
- 
 
-
- @media screen and (min-width: 0) {
-    .banner__imagen{
-       height: calc(200vh - 51px)
- 
-    }
-    
- }
- @media screen and (min-width: 768px){
-    .banner__imagen{
-       height: calc(100vh - 72px);
-    }
+ @media screen and (max-width: 768px){
+   .banner__marcadoruno{
+      width: 65%;
+      height: 65%;
+   margin-top: -4px;
+    margin-left: 271px;
+   }
+  
 }
 

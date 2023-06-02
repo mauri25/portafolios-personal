@@ -8,6 +8,11 @@
  }
 
  
- @media (max-width: 768px){
-   .conceptoWeb{padding: 20px;} 
+ @media (min-width: 2150px){
+   .conceptoWeb{
+    margin-top: -6%;
+    padding-left: 21px;
+    padding-right: 33px;
+
+ } 
  }

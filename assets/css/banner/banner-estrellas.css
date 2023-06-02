@@ -7,3 +7,11 @@
     object-fit: cover;
     pointer-events: none;
 }
+
+@media screen and (max-width: 768px){
+    .banner__estrellas{
+        width: 90%;
+        height: 90%;
+        
+    }
+}

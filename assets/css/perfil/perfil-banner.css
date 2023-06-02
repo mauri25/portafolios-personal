@@ -21,3 +21,12 @@
     width: 100%;
    
 }
+
+@media screen and (max-width: 768px){
+  .perfil__banner{
+      width: 90%;
+      margin-left: 0%; 
+  }
+
+}
+

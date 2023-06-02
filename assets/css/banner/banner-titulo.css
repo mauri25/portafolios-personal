@@ -9,3 +9,13 @@
     object-fit: cover;
     pointer-events: none;
 }
+
+@media screen and (max-width: 768px){
+    .banner__titulo{
+        width: 90%;
+        height: 90%;
+        
+    }
+}
+
+

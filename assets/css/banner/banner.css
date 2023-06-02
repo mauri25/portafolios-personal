@@ -24,3 +24,11 @@
     z-index: 1000;
 }
 
+@media screen and (max-width: 768px){
+.banner{
+    width: 110%;
+    height: 154vh;
+    padding-left: 15px 50px;
+}
+}
+
