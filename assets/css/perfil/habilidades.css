@@ -2,9 +2,7 @@
     width:100vh;
     height: 100vh;
     display: flex;
-  flex-wrap: wrap;
-    align-items:center;
-    justify-content: center;
+    flex-wrap:wrap;
 }
 
 .barra{

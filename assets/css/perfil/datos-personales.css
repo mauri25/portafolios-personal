@@ -1,48 +1,69 @@
 .datos__personales{
     display:flex;
-    flex-direction: row;
+  flex-direction: row;
     align-items: center;
-    padding: 60px;
+    background: #040611;
+    padding: 5% 15% 5% 15%;
+   
+}
+
+
+.dato__redes{
+    height: 30%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+ 
+   
     
+}
+
+
+.contenedor__foto{
+    align-self: center;
 }
 
 .redes{
     display:flex;
-    gap: 139px;
+    flex-direction: row;
+   
+
+   
 }
 
 .link{
-    margin:0;
+    margin-right:5%;
     padding: 0%;
 }
 
 .iconoUno{
-    width: 20%;
+    width: 100%;
   
 }
 
 .iconoDos{
-    width: 45%;
+    width: 100%;
 }
 
 .iconoTres{
-    width: 80%;
+    width: 100%;
     
 }
 
 .datos__foto{
-height: 200px;
-width: 200px;
-margin-top: 1%;
-margin-left: -19%;
-margin-right: -19%;
+height: 150px;
+width: 150px;
+
+margin-bottom: 15%;
 border-radius: 100%;
 }
 
 .datos__nombre{
     color:#ffffff;
     font-family: Mermaid Babies;
-    font-size: 4rem;
+    font-size: 3rem;
+
 }
 
 .datos__titulo{

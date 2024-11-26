@@ -6,14 +6,29 @@
 }
 
 .perfil__banner{
+  display: flex;
+  justify-content:center;
     margin-left: 20%;
+    margin-top: 10%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 60%;
+    width: 50%;
+    -webkit-animation: spin 20s linear infinite;
+    -moz-animation: spin 20s linear infinite;
+    animation: spin 20s linear infinite;
     
 }
 
+@-webkit-keyframes spin {
+  100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+  100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+  100%{-webkit-transform: rotate(360deg);}
+}
 .estrellas__perfil{
 
     top: 0;
